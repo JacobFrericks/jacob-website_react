@@ -1,0 +1,21 @@
+.module {
+    background-color: #18bc9c;
+    color: #ffffff;
+}
+
+.title {
+    margin: 0;
+    padding-top: .5em;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.subtitle {
+    margin: 0;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
