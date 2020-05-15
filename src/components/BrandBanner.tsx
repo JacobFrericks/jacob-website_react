@@ -1,13 +1,7 @@
 import React from 'react';
-import backgroundImage from '../img/banner.png'
-import { Jumbotron, Button, Col, Row, Container} from 'reactstrap';
+import backgroundImage from '../img/banner2.png'
+import { Jumbotron, Container} from 'reactstrap';
 import styles from './BrandBanner.module.css'
-
-const divStyle = {
-    width: "100%",
-    height: "100vh",
-    backgroundImage: 'url(' + backgroundImage + ')'
-};
 
 const NavbarScroller = () => {
 
@@ -17,17 +11,17 @@ const NavbarScroller = () => {
         background: "url(" + backgroundImage + ") center",
         maxWidth: "500px",
         width: "100%",
-        height: "75vh",
+        height: "50vh",
         backgroundSize: "cover",
-        paddingTop: "55vh",
+        paddingTop: "45vh",
     };
 
     return (
-        <div style={{width: "100%", height: "75vh", backgroundColor: "black"}}>
-            <Jumbotron style={jumbotron} className="text-center" >
+        <div style={{width: "100%", height: "70vh", backgroundColor: "black"}}>
+            <Jumbotron style={jumbotron}>
                 <Container className={styles.container} fluid>
                     <div className={styles.centerContent}>
-                        <h1 className="display-4 text-center text-white margin-top-xl margin-bottom-xl" color="white">
+                        <h1 className="display-4" color="white">
                             Jacob Frericks
                         </h1>
                         <span className={styles.skills}>

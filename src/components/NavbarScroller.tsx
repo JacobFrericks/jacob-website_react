@@ -8,6 +8,7 @@ import {
     NavItem,
     NavLink,
 } from 'reactstrap';
+import styles from './NavbarScroller.module.css'
 
 const NavbarScroller = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const NavbarScroller = () => {
 
     return (
         <div>
-            <Navbar color="dark" dark expand="md">
+            <Navbar className={styles.Navbar} dark expand="md">
                 <NavbarBrand href="/">Jacob Frericks</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
