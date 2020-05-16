@@ -58,7 +58,6 @@ const WorkExperience = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: '#fff', color: '#000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="January 2015 - April 2017"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<WorkIcon />}
@@ -77,7 +76,6 @@ const WorkExperience = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: '#fff', color: '#000' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="June 2013 - January 2015"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<WorkIcon />}
@@ -95,6 +93,7 @@ const WorkExperience = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
                         date="April 2013"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon={<SchoolIcon />}
