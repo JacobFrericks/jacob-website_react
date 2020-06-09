@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Header from './components/NavbarScroller';
 import BrandBanner from './components/BrandBanner';
 import AboutMe from "./components/AboutMe";
@@ -10,12 +10,12 @@ import ContactMe from "./components/ContactMe";
 function App() {
     return (
     <div className="App">
-      <Header/>
+      {/*<Header/>*/}
       <BrandBanner/>
       <AboutMe/>
       <Portfolio/>
-      <WorkExperience/>
-      <ContactMe/>
+      {/*<WorkExperience/>*/}
+      {/*<ContactMe/>*/}
     </div>
   );
 }

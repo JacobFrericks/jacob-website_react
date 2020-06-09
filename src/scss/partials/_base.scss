@@ -1,0 +1,17 @@
+.App {
+  color: $teal;
+  font-family: $ff-s;
+  line-height: 1.6;
+  background: $white;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: $letter-spacing;
+  color: $textColor;
+  line-height: 1;
+}
