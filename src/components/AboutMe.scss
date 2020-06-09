@@ -1,0 +1,44 @@
+@import '../scss/main';
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  row-gap: 2em;
+}
+
+.gridItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  padding-top: .5em;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $textColor;
+  text-align: center;
+}
+
+.me {
+  height: 200px;
+}
+
+.profilePicWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileTitle {
+  color: $textColor;
+  text-align: center;
+}
+
+.profileBody {
+  color: $textColor;
+  text-align: center;
+  font-size: 8pt;
+}

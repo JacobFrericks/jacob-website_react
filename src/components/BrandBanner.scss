@@ -1,0 +1,43 @@
+@import '../scss/main';
+
+.home {
+    background: black;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+        color: white;
+        font-size: 16pt;
+        line-height: 20pt;
+        text-align: center;
+
+        button {
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+            box-sizing: inherit;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 13pt;
+            padding: 10px 20px;
+            transition: all 0.5s;
+            &:hover {
+                background-color: $primary;
+                border-color: $primary;
+            }
+
+            .mdi {
+                vertical-align: middle;
+            }
+        }
+    }
+
+    span {
+        color: $secondary;
+        font-family: $ff-s;
+        margin-left: .3em;
+    }
+}
