@@ -7,34 +7,33 @@
     color: #fff;
 }
 
-
-.projectGrid {
+.blogGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-right: 15vw;
     margin-left: 15vw;
 }
 
-.test {
+.test4 {
     background-color: blue;
     height: 250px;
     width: 250px;
 }
 
-.test1 {
-    @extend .test;
+.test5 {
+    @extend .test4;
     background-color: red;
 }
 
 
-.test2 {
-    @extend .test;
+.test6 {
+    @extend .test4;
     background-color: green;
 }
 
 
-.test3 {
-    @extend .test;
+.test7 {
+    @extend .test4;
     background-color: yellow;
 }
 
