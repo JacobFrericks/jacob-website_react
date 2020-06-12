@@ -12,28 +12,30 @@ const Blog = () => {
 
     useEffect(() => {
         getPosts().then(result => {
-            console.log("IN USE-EFFECT", result);
             setPosts(result);
             setLoading(false)
         })
     }, []);
 
-    console.log("Posts state", posts);
-
     return (
         <div>
             <div className='title'>Blog</div>
-            {loading && <h1>loading posts...</h1>}
-            <div className='blogGrid'>
-                {!loading &&
-                posts.map(post => {
-                    let blogPost = new BlogObj(post);
-                    console.log(blogPost);
-                    return (
-                        <BlogCard classNamekey={blogPost.id} blogPost={blogPost} />
-                    )
-                })}
-            </div>
+            {loading
+                ? <h1>loading posts...</h1>
+                : <div className='blogGrid'>
+                    {posts.slice(0, 4).map(post => {
+                        let blogPost = new BlogObj(post);
+                        return (
+                            <BlogCard
+                                classNamekey={blogPost.id}
+                                blogPost={blogPost}
+                                key={blogPost.id}
+                            />
+                        )
+                    })}
+                </div>
+            }
+            <button>View more blog posts</button>
         </div>
     )
 };
