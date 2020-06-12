@@ -1,0 +1,46 @@
+@import '../scss/main';
+
+.filter {
+    font-size: 11pt;
+    margin: 0 15px;
+    padding: 0 30px;
+    color: #fff;
+}
+
+.blogTitle {
+    color: $textColor;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.blogDate {
+    color: black;
+    font-size: .75em;
+}
+
+.blogDate::after {
+    content: '';
+    display: block;
+    margin: 10px 0;
+    width: 25%;
+    height: 3px;
+    background: $primary;
+}
+
+.blogDescription {
+    color: black;
+    font-size: .90em;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+
+@media(max-width:540px){
+    .projectGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

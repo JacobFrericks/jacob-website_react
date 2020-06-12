@@ -1,0 +1,44 @@
+@import '../scss/main';
+
+.filter {
+    font-size: 11pt;
+    margin: 0 15px;
+    padding: 0 30px;
+    color: #fff;
+}
+
+.blogGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+
+.test4 {
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+}
+
+.test5 {
+    @extend .test4;
+    background-color: red;
+}
+
+
+.test6 {
+    @extend .test4;
+    background-color: green;
+}
+
+
+.test7 {
+    @extend .test4;
+    background-color: yellow;
+}
+
+@media(max-width:540px){
+    .projectGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
