@@ -1,28 +1,45 @@
-.module {
-    background-color: #ffffff;
-    color: #000000;
-    text-align: center;
+@import '../scss/main';
+
+.filter {
+    font-size: 11pt;
+    margin: 0 15px;
+    padding: 0 30px;
+    color: #fff;
 }
 
-.title {
-    margin: 0;
-    padding-top: .5em;
-    font-size: 3em;
-    text-transform: uppercase;
-    font-weight: 700;
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 15vw;
+    margin-left: 15vw;
 }
 
-.portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.test {
+    background-color: blue;
+    height: 250px;
+    width: 250px;
 }
 
-.img-centered {
-    margin: 0 auto;
+.test1 {
+    @extend .test;
+    background-color: red;
+}
+
+
+.test2 {
+    @extend .test;
+    background-color: green;
+}
+
+
+.test3 {
+    @extend .test;
+    background-color: yellow;
+}
+
+@media(max-width:540px){
+    .projectGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
