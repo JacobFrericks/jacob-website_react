@@ -1,0 +1,72 @@
+@import '../scss/main';
+
+.footer {
+    background: $primary-darkest;
+}
+
+.icon-wrap {
+
+    .icon {
+        background: #262f38;
+        cursor: pointer;
+        font-size: 18pt;
+        height: 55px;
+        margin: 25px 15px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+        width: 55px;
+    }
+
+    .mdi {
+        color: #fff;
+        text-align: center;
+
+        &.mdi-codepen {
+            font-size: 20pt;
+        }
+    }
+
+    .icon:hover {
+        background: $primary;
+        box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
+        transform: scale(0.9);
+
+        .mdi {
+            color: #fff;
+        }
+    }
+
+    .icon:hover .mdi {
+        -webkit-animation: toBottomFromTop 0.3s forwards;
+        -moz-animation: toBottomFromTop 0.3s forwards;
+        animation: toBottomFromTop 0.3s forwards;
+    }
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &.row {
+        flex-direction: row;
+    }
+
+    &.wrap {
+        flex-wrap: wrap;
+    }
+}
+
+.footnote {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.socialIcon {
+    color: white;
+    font-size: 20px;
+    size: 50px;
+}

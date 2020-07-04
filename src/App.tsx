@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import WorkExperience from "./components/WorkExperience";
 import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -17,7 +18,8 @@ function App() {
       <Portfolio/>
       <Blog/>
       {/*<WorkExperience/>*/}
-      {/*<ContactMe/>*/}
+      <ContactMe/>
+      <Footer/>
     </div>
   );
 }
