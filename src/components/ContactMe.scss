@@ -1,0 +1,72 @@
+@import '../scss/main';
+
+.contactme {
+    background: #252934;
+    position: relative;
+
+}
+
+.question {
+    color: $primary;
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contactTitle {
+    margin: 0;
+    padding-top: .5em;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $white;
+    text-align: center;
+}
+
+.formInput {
+    background-color: #1e242c;
+    color: $offwhite;
+    margin-left: 15vw;
+    width: 70vw;
+    border: 0;
+    margin-bottom: 3px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.contactButton {
+    border: 2px solid #fff;
+    background-color: $primary-darkest;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: $primary;
+        border-color: $primary;
+    }
+
+    .mdi {
+        vertical-align: middle;
+    }
+}
+
+.submitButton {
+    margin-left: 85vw - 17;
+    padding-top: 7px;
+    padding-bottom: 25px;
+}
+
+.downTriangle {
+    width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+
+    border-top: 75px solid white;
+}

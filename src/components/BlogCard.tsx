@@ -9,7 +9,7 @@ const BlogCard = props => {
         <div>
             <img
                 src={blogPost.coverImage}
-                alt={"Blog post cover image"}
+                alt={"Blog post cover"}
                 style={{ width: "100%", objectFit: "contain" }}
             />
             <div className='blogTitle'>{blogPost.title}</div>
