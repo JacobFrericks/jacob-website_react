@@ -35,7 +35,9 @@ const Blog = () => {
                     })}
                 </div>
             }
-            <button>View more blog posts</button>
+            <div className='submitButton'>
+                <a className='moreBlogsButton' href="https://dev.to/jacobfrericks/">MORE</a>
+            </div>
         </div>
     )
 };
