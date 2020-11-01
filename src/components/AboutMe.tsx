@@ -43,7 +43,7 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className='profilePicWrapper'>
-                <img src={me} className="me" alt="My profile picture"/>
+                <img src={me} className="me" alt="My profile"/>
             </div>
             <div className='profile'>
                 <div className='profileTitle'> Who's this guy?</div>
