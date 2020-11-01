@@ -9,10 +9,6 @@ const Portfolio = () => {
         <section className="projects" id="portfolio">
             <div className='title'>Projects</div>
             <div className='projectGrid'>
-                {/*<div className='test'/>*/}
-                {/*<div className='test1'/>*/}
-                {/*<div className='test2'/>*/}
-                {/*<div className='test3'/>*/}
                 <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>
                 <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>
                 <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>
