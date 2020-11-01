@@ -5,10 +5,10 @@ import React from 'react';
 // import Facebook from '@material-ui/icons/Facebook';
 // import Twitter from '@material-ui/icons/Twitter';
 // import IconButton from '@material-ui/core/IconButton';
-import makeStyles from "@material-ui/core/styles/makeStyles";
+// import makeStyles from "@material-ui/core/styles/makeStyles";
 import './ContactMe.scss';
 
-let hover = { backgroundColor: "#fff", color: "#18bc9c", border: "solid 2px #fff" };
+// let hover = { backgroundColor: "#fff", color: "#18bc9c", border: "solid 2px #fff" };
 // let iconSize = { fontSize: '100px' };
 
 // const useStyles = makeStyles(theme => ({
