@@ -8,7 +8,7 @@ const NavbarScroller = () => {
             <div className="text">
                 Hello, I'm <span>Jacob Frericks</span>.
                 <br/>
-                I'm a full stack web developer.
+                I'm a Cloud Security Engineer.<br/>
                 <br/>
                 <br/>
                 <button>View my work</button>
