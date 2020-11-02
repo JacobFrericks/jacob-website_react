@@ -1,12 +1,12 @@
 import React from 'react';
 import Hexagon from './Hexagon';
 import './AboutMe.scss';
-import me from '../img/profile_pic.png';
+import me from '../img/profile_pic.jpg';
 
-let fastText = "Fast load times and lag free interaction. My highest priority.";
-let intuitiveText = "Strong preference for easy to use intuitive UX/UI.";
-let responsiveText = "My layouts will work on any device, big or small.";
-let dynamicText = "Websites don't have to be static. I love making pages come to life.";
+let secureText = "Keep your cloud environment secure. My highest priority.";
+let developerText = "We're on the same team. I don't slow them down from delivery.";
+let devsecopsText = "Automate as much as humanly possible.";
+let speedText = "Ship as many things as quickly and securely as possible";
 
 const AboutMe = () => {
     return (
@@ -15,30 +15,26 @@ const AboutMe = () => {
             <div className="aboutGrid">
                 <div className="gridItem">
                     <Hexagon
-                        title="Fast"
-                        text={fastText}
-                        icon="coffee"
+                        title="Secure"
+                        text={secureText}
                     />
                 </div>
                 <div className="gridItem">
                     <Hexagon
-                        title="Intuitive"
-                        text={intuitiveText}
-                        icon="coffee"
+                        title="Developers"
+                        text={developerText}
                     />
                 </div>
                 <div className="gridItem">
                     <Hexagon
-                        title="Responsive"
-                        text={responsiveText}
-                        icon="coffee"
+                        title="DevSecOps"
+                        text={devsecopsText}
                     />
                 </div>
                 <div className="gridItem">
                     <Hexagon
-                        title="Dynamic"
-                        text={dynamicText}
-                        icon="coffee"
+                        title="Speed"
+                        text={speedText}
                     />
                 </div>
             </div>
@@ -48,8 +44,9 @@ const AboutMe = () => {
             <div className='profile'>
                 <div className='profileTitle'> Who's this guy?</div>
                 <div className='profileBody'>
-                    I'm a Front-End Developer for ChowNow in Los Angeles, CA.<br/>
-                    I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.  Let's make something special.
+                    I'm a Cloud Security Engineer for Hy-Vee in Des Moines, IA.<br/>
+                    I focus on cloud security, but have a passion for programming and developers.<br/>
+                    Let me help you make something special.
                 </div>
             </div>
         </div>
