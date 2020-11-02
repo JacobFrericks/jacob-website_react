@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7fc5b3d4fb458246038e7b9ccaa14ca",
+    "revision": "4879e8b1bd818c0f9801d9bee2937006",
     "url": "/jacob-website_react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jacob-website_react/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "0d141b6375967948b19a",
-    "url": "/jacob-website_react/static/css/main.5a1c4f13.chunk.css"
+    "revision": "e59295dff247f16d1f74",
+    "url": "/jacob-website_react/static/css/main.a1d62539.chunk.css"
   },
   {
     "revision": "8c8274f628085e567f4c",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jacob-website_react/static/js/2.7766a43b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d141b6375967948b19a",
+    "revision": "e59295dff247f16d1f74",
     "url": "/jacob-website_react/static/js/main.d4dbcb88.chunk.js"
   },
   {
