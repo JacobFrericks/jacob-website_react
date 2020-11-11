@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Hexagon from './Hexagon';
 import './AboutMe.scss';
 import me from '../img/profile_pic.jpg';
-import {faCode, faCoffee, faLaptopCode, faLock, faSyncAlt, faTachometerAlt} from "@fortawesome/free-solid-svg-icons";
+import {faCode, faLock, faSyncAlt, faTachometerAlt} from "@fortawesome/free-solid-svg-icons";
 
 let secureText = "Keep your cloud environment secure. My highest priority.";
 let developerText = "We're on the same team. I don't slow them down from delivery.";
