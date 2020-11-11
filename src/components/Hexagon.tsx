@@ -8,7 +8,7 @@ const Hexagon = (props) => {
         <div>
             <div className="hexContainer">
                 <div className="hexagon">
-                    <FontAwesomeIcon icon={props.icon}/>
+                    <FontAwesomeIcon icon={props.icon} className='fontawesome'/>
                 </div>
             </div>
             <div className='textContainer'>

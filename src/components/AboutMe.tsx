@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Hexagon from './Hexagon';
 import './AboutMe.scss';
 import me from '../img/profile_pic.jpg';
+import {faCode, faCoffee, faLaptopCode, faLock, faSyncAlt, faTachometerAlt} from "@fortawesome/free-solid-svg-icons";
 
 let secureText = "Keep your cloud environment secure. My highest priority.";
 let developerText = "We're on the same team. I don't slow them down from delivery.";
@@ -18,24 +19,28 @@ class AboutMe extends Component {
                         <Hexagon
                             title="Secure"
                             text={secureText}
+                            icon={faLock}
                         />
                     </div>
                     <div className="gridItem">
                         <Hexagon
                             title="Developers"
                             text={developerText}
+                            icon={faCode}
                         />
                     </div>
                     <div className="gridItem">
                         <Hexagon
                             title="DevSecOps"
                             text={devsecopsText}
+                            icon={faSyncAlt}
                         />
                     </div>
                     <div className="gridItem">
                         <Hexagon
                             title="Speed"
                             text={speedText}
+                            icon={faTachometerAlt}
                         />
                     </div>
                 </div>
