@@ -1,8 +1,8 @@
 @import '../scss/main';
 
 $hexColor: #04c2c9;
-$hexWidth: 80px;
-$hexHeight: calc(#{$hexWidth} / 1.73);
+$hexWidth: 100px;
+$hexHeight: 60px;
 
 .label {
   font-size: 14pt;
@@ -14,37 +14,52 @@ $hexHeight: calc(#{$hexWidth} / 1.73);
   text-align: center;
   font-size: 10pt;
   color: $textColor;
+  height: 125px;
 }
 
 .hexContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: calc(#{$hexHeight} / 2);
+  height: 150px
 }
 
 .hexagon {
-  position: relative;
-  width: $hexHeight;
-  height: $hexWidth;
+  width: $hexWidth;
+  height: $hexHeight;
   background: $hexColor;
-  margin-left: calc(#{$hexWidth} / 3.4);
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-
-.hexagon::before,
-.hexagon::after {
+.hexagon:before {
   content: "";
   position: absolute;
-  border-top: calc(#{$hexWidth} / 2) solid transparent;
-  border-bottom: calc(#{$hexWidth} / 2) solid transparent;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid $hexColor;
+}
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid $hexColor;
 }
 
-.hexagon::before {
-  left: 100%;
-  border-left: calc(#{$hexHeight} / 2) solid $hexColor;
-}
-
-.hexagon::after {
-  right: 100%;
-  border-right: calc(#{$hexHeight} / 2) solid $hexColor;
+.fontawesome {
+  color: white;
+  font-size: 55px;
+  line-height: 60px;
+  align-self: flex-end;
+  padding-bottom: 5px;
 }
