@@ -1,6 +1,8 @@
 # Personal Website
-Hello! 👋 Welcome to the code behind my website! Here's a quick overview:
-The website is written in React, TypeScript, and SASS.
+Hello! 👋 
+
+Welcome to the code behind my website! Here's a quick overview:
+* The website is written in React, TypeScript, and SASS.
 * The [components](https://github.com/JacobFrericks/jacob-website_react/tree/master/src/components) directory contains both SCSS style sheets and each component code
 * The [images](https://github.com/JacobFrericks/jacob-website_react/tree/master/src/img) directory contains images found on the page.
 * The [objects](https://github.com/JacobFrericks/jacob-website_react/tree/master/src/objects) directory contains TypeScript objects.
