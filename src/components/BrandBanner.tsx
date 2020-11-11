@@ -21,7 +21,7 @@ class NavbarScroller extends Component {
                     Hello, I'm <span>Jacob Frericks</span>.
                     <br/>
                     <br/>
-                    I'm a Cloud Security <br/> and Software Engineer<br/>
+                    Cloud Security Engineer by day<br/><span>Software Engineer by night</span><br/>
                     <br/>
                     <br/>
                     <button onClick={this.handleClick}>View my work</button>
