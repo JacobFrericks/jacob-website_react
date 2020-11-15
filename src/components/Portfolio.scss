@@ -6,6 +6,40 @@
   margin-bottom: 1vh
 }
 
+.projectInfo {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background-color: white;
+
+  .projectTitle {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .projectLanguage {
+    color: $secondary;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .projectButton {
+    width: 74%;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 13%;
+    border-color: $secondary;
+    background-color: white;
+  }
+
+  .projectButton:hover {
+    background-color: $secondary;
+    color: white;
+  }
+}
+
 .projectGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
