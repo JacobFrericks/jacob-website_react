@@ -25,7 +25,12 @@ export default props => {
     const {
         isOpen,
         askToClose,
-        onRequestClose
+        onRequestClose,
+        images,
+        title,
+        subtitle,
+        description,
+        link
     } = props;
 
     return (
@@ -52,16 +57,18 @@ export default props => {
                         </button>
                     )
                 }>
-                <div>
-                    <img src={aca_eagles_banner} />
-                </div>
-                <div>
-                    <img src={aca_eagles_banner} />
-                </div>
-                <div>
-                    <img src={aca_eagles_banner} />
-                </div>
+                {images.map(image => {
+                    return(
+                        <div>
+                            {image}
+                        </div>
+                    )
+                })}
             </Carousel>
+            <div>{title}</div>
+            <div>{subtitle}</div>
+            <div>{description}</div>
+            <button><a href={link}>View App</a></button>
             <button onClick={askToClose}>close</button>
         </Modal>
     );

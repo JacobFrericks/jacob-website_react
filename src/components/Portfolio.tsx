@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Portfolio.scss';
-import ACAMODAL from '../modals/aca_modal';
+import Modals from '../modals/modals';
 import aca_eagles_banner from "../img/portfolio/aca_eagles.png";
 let Scroll   = require('react-scroll');
 
@@ -72,32 +72,29 @@ class Portfolio extends Component<MyProps, MyState> {
                                  onMouseLeave={this.onMouseout.bind(this)}/>
                         }
 
-                        <ACAMODAL
-                            isOpen={currentModal === ACA_MODAL}
-                            onRequestClose={this.handleModalCloseRequest}
-                            askToClose={this.toggleModal(ACA_MODAL)} />
+                        {/*<ACAMODAL*/}
+                        {/*    isOpen={currentModal === ACA_MODAL}*/}
+                        {/*    onRequestClose={this.handleModalCloseRequest}*/}
+                        {/*    askToClose={this.toggleModal(ACA_MODAL)} />*/}
+                        <Modals
+                                isOpen={currentModal === ACA_MODAL}
+                                onRequestClose={this.handleModalCloseRequest}
+                                askToClose={this.toggleModal(ACA_MODAL)}
+                                images={[
+                                    <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>,
+                                    <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>,
+                                    <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>,
+                                    <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>
+                                ]}
+                                title="ACA Eagles"
+                                subtitle="Insert subtitle here"
+                                description="Insert longer description here. Insert longer description here. Insert longer description here. Insert longer description here"
+                                link="https://apps.apple.com/us/app/aca-eagles/id1399920289"
+                        />
                     </div>
-                    <div><img className='project' src={aca_eagles_banner} alt='ACA Eagles'/><br/>
-                        {/*<button type="button" className="btn btn-primary" onClick={this.toggleModal(ACA_MODAL)}>LEARN MORE</button>*/}
-                        <ACAMODAL
-                            isOpen={currentModal === ACA_MODAL}
-                            onRequestClose={this.handleModalCloseRequest}
-                            askToClose={this.toggleModal(ACA_MODAL)} />
-                    </div>
-                    <div><img className='project' src={aca_eagles_banner} alt='ACA Eagles'/><br/>
-                        {/*<button type="button" className="btn btn-primary" onClick={this.toggleModal(ACA_MODAL)}>Open Modal B</button>*/}
-                        <ACAMODAL
-                            isOpen={currentModal === ACA_MODAL}
-                            onRequestClose={this.handleModalCloseRequest}
-                            askToClose={this.toggleModal(ACA_MODAL)} />
-                    </div>
-                    <div><img className='project' src={aca_eagles_banner} alt='ACA Eagles'/><br/>
-                        {/*<button type="button" className="btn btn-primary" onClick={this.toggleModal(ACA_MODAL)}>Open Modal B</button>*/}
-                        <ACAMODAL
-                            isOpen={currentModal === ACA_MODAL}
-                            onRequestClose={this.handleModalCloseRequest}
-                            askToClose={this.toggleModal(ACA_MODAL)} />
-                    </div>
+                    <div><img className='project' src={aca_eagles_banner} alt='ACA Eagles'/><br/></div>
+                    <div><img className='project' src={aca_eagles_banner} alt='ACA Eagles'/><br/></div>
+                    <div><img className='project' src={aca_eagles_banner} alt='ACA Eagles'/><br/></div>
                 </div>
 
             </section>
