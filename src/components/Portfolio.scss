@@ -28,10 +28,14 @@
   .projectButton {
     width: 74%;
     position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
     bottom: 20px;
     margin-left: 13%;
-    border-color: $secondary;
     background-color: white;
+    border: 1px solid $secondary;
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+    font-size: larger;
   }
 
   .projectButton:hover {
