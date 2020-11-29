@@ -61,8 +61,6 @@ class ContactMe extends Component<MyProps, MyState> {
             </div>
         );
     }
-
-
 }
 
 export default ContactMe;
