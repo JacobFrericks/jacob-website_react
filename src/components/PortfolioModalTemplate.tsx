@@ -58,9 +58,9 @@ export default props => {
                         </button>
                     )
                 }>
-                {images.map(image => {
+                {images.map(function(image, index) {
                     return(
-                        <div>
+                        <div key={index}>
                             {image}
                         </div>
                     )

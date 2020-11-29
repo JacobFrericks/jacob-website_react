@@ -1,11 +1,21 @@
 import React, {Component} from 'react';
 import './Portfolio.scss';
 import Modals from './PortfolioModalTemplate';
-import aca_eagles_banner from "../img/portfolio/aca_eagles.png";
-let Scroll   = require('react-scroll');
 
+// images for project modals
+//// aca_eagles
+import aca_eagles_banner from "../img/portfolio/aca_eagles/aca_eagles.png";
+import aca_eagles_splash_screen from "../img/portfolio/aca_eagles/splash_screen.png";
+import aca_eagles_news_feed from "../img/portfolio/aca_eagles/news_feed.png";
+import aca_eagles_announcements from "../img/portfolio/aca_eagles/announcements.png";
+import aca_eagles_calendar from "../img/portfolio/aca_eagles/calendar.png";
+import aca_eagles_about_us from "../img/portfolio/aca_eagles/about_us.png";
+
+// Info for modals
 const ACA_MODAL = 'aca_modal';
 const ACA_EAGLES_DESCRIPTION = 'This is an application (Android/iOS) for a local private school. It gives users direct access to the most recent news, announcements, events, and general information about the school. It also allows for weather push notifications.';
+
+let Scroll   = require('react-scroll');
 
 type MyProps = {};
 type MyState = { currentModal: string, aca_hover: number };
@@ -77,10 +87,11 @@ class Portfolio extends Component<MyProps, MyState> {
                                 onRequestClose={this.handleModalCloseRequest}
                                 askToClose={this.toggleModal(ACA_MODAL)}
                                 images={[
-                                    <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>,
-                                    <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>,
-                                    <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>,
-                                    <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>
+                                    <img className='projectModalImage' src={aca_eagles_splash_screen} alt='ACA Eagles'/>,
+                                    <img className='projectModalImage' src={aca_eagles_calendar} alt='ACA Eagles'/>,
+                                    <img className='projectModalImage' src={aca_eagles_news_feed} alt='ACA Eagles'/>,
+                                    <img className='projectModalImage' src={aca_eagles_announcements} alt='ACA Eagles'/>,
+                                    <img className='projectModalImage' src={aca_eagles_about_us} alt='ACA Eagles'/>
                                 ]}
                                 title="ACA Eagles"
                                 subtitle="A private school's mobile app"
