@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/jacob-website_react/static/css/main.7615852b.chunk.css",
-    "main.js": "/jacob-website_react/static/js/main.cc9a9be2.chunk.js",
-    "main.js.map": "/jacob-website_react/static/js/main.cc9a9be2.chunk.js.map",
+    "main.css": "/jacob-website_react/static/css/main.d3c65249.chunk.css",
+    "main.js": "/jacob-website_react/static/js/main.30c2eaf9.chunk.js",
+    "main.js.map": "/jacob-website_react/static/js/main.30c2eaf9.chunk.js.map",
     "runtime-main.js": "/jacob-website_react/static/js/runtime-main.5a05686a.js",
     "runtime-main.js.map": "/jacob-website_react/static/js/runtime-main.5a05686a.js.map",
-    "static/css/2.de424728.chunk.css": "/jacob-website_react/static/css/2.de424728.chunk.css",
-    "static/js/2.48bca39b.chunk.js": "/jacob-website_react/static/js/2.48bca39b.chunk.js",
-    "static/js/2.48bca39b.chunk.js.map": "/jacob-website_react/static/js/2.48bca39b.chunk.js.map",
+    "static/css/2.2ee15b90.chunk.css": "/jacob-website_react/static/css/2.2ee15b90.chunk.css",
+    "static/js/2.932f72cd.chunk.js": "/jacob-website_react/static/js/2.932f72cd.chunk.js",
+    "static/js/2.932f72cd.chunk.js.map": "/jacob-website_react/static/js/2.932f72cd.chunk.js.map",
     "index.html": "/jacob-website_react/index.html",
-    "precache-manifest.2992095b46a5b1fec775a6342c86b587.js": "/jacob-website_react/precache-manifest.2992095b46a5b1fec775a6342c86b587.js",
+    "precache-manifest.1402faac4c79e8e2f7165e7e67fc7912.js": "/jacob-website_react/precache-manifest.1402faac4c79e8e2f7165e7e67fc7912.js",
     "service-worker.js": "/jacob-website_react/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/jacob-website_react/static/css/2.de424728.chunk.css.map",
-    "static/css/main.7615852b.chunk.css.map": "/jacob-website_react/static/css/main.7615852b.chunk.css.map",
-    "static/js/2.48bca39b.chunk.js.LICENSE.txt": "/jacob-website_react/static/js/2.48bca39b.chunk.js.LICENSE.txt",
+    "static/css/2.2ee15b90.chunk.css.map": "/jacob-website_react/static/css/2.2ee15b90.chunk.css.map",
+    "static/css/main.d3c65249.chunk.css.map": "/jacob-website_react/static/css/main.d3c65249.chunk.css.map",
+    "static/js/2.932f72cd.chunk.js.LICENSE.txt": "/jacob-website_react/static/js/2.932f72cd.chunk.js.LICENSE.txt",
     "static/media/aca_eagles.png": "/jacob-website_react/static/media/aca_eagles.b8dca292.png",
     "static/media/profile_pic.jpg": "/jacob-website_react/static/media/profile_pic.b2d0d1e2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5a05686a.js",
-    "static/css/2.de424728.chunk.css",
-    "static/js/2.48bca39b.chunk.js",
-    "static/css/main.7615852b.chunk.css",
-    "static/js/main.cc9a9be2.chunk.js"
+    "static/css/2.2ee15b90.chunk.css",
+    "static/js/2.932f72cd.chunk.js",
+    "static/css/main.d3c65249.chunk.css",
+    "static/js/main.30c2eaf9.chunk.js"
   ]
 }
