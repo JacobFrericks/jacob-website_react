@@ -1,0 +1,73 @@
+@import 'src/scss/main';
+
+$leftPadding: 15px;
+
+.modalTitle {
+  padding-top: 15px;
+  padding-left: $leftPadding;
+  font-size: 8vw;
+  font-weight: 700;
+  color: $textColor;
+  text-align: left;
+}
+
+.modalSubtitle {
+  padding-left: $leftPadding;
+  font-size: 4vw;
+  font-weight: 700;
+  color: $lightTextColor;
+  text-align: left;
+}
+
+.modalTitleSeparator {
+  background-color: $lightTextColor;
+}
+
+.modalDescription {
+  padding-left: 15px;
+  color: $textColor;
+}
+
+.modalViewAppButton {
+  background-color: $secondary;
+  border: none;
+  padding: 10px 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 250;
+  }
+
+  a:hover, a:visited, a:link, a:active
+  {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $secondary;
+  }
+}
+
+.modalViewAppButton:hover {
+  background-color: white;
+}
+
+.modalCloseButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 25px;
+
+  color: $lightTextColor;
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+}
