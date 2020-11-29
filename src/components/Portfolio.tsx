@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Portfolio.scss';
-import Modals from '../modals/modals';
+import Modals from './PortfolioModalTemplate';
 import aca_eagles_banner from "../img/portfolio/aca_eagles.png";
 let Scroll   = require('react-scroll');
 
@@ -72,11 +72,6 @@ class Portfolio extends Component<MyProps, MyState> {
                                  onMouseEnter={this.onMouseover.bind(this)}
                                  onMouseLeave={this.onMouseout.bind(this)}/>
                         }
-
-                        {/*<ACAMODAL*/}
-                        {/*    isOpen={currentModal === ACA_MODAL}*/}
-                        {/*    onRequestClose={this.handleModalCloseRequest}*/}
-                        {/*    askToClose={this.toggleModal(ACA_MODAL)} />*/}
                         <Modals
                                 isOpen={currentModal === ACA_MODAL}
                                 onRequestClose={this.handleModalCloseRequest}

@@ -1,5 +1,5 @@
 import React, { CSSProperties } from 'react';
-import './modals.scss';
+import './PortfolioModalTemplate.scss';
 import Modal from 'react-modal';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
