@@ -5,6 +5,7 @@ import aca_eagles_banner from "../img/portfolio/aca_eagles.png";
 let Scroll   = require('react-scroll');
 
 const ACA_MODAL = 'aca_modal';
+const ACA_EAGLES_DESCRIPTION = 'This is an application (Android/iOS) for a local private school. It gives users direct access to the most recent news, announcements, events, and general information about the school. It also allows for weather push notifications.';
 
 type MyProps = {};
 type MyState = { currentModal: string, aca_hover: number };
@@ -87,8 +88,8 @@ class Portfolio extends Component<MyProps, MyState> {
                                     <img className='project' src={aca_eagles_banner} alt='ACA Eagles'/>
                                 ]}
                                 title="ACA Eagles"
-                                subtitle="Insert subtitle here"
-                                description="Insert longer description here. Insert longer description here. Insert longer description here. Insert longer description here"
+                                subtitle="A private school's mobile app"
+                                description={ACA_EAGLES_DESCRIPTION}
                                 link="https://apps.apple.com/us/app/aca-eagles/id1399920289"
                         />
                     </div>
