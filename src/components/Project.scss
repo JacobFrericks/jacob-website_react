@@ -1,0 +1,47 @@
+@import '../scss/main';
+
+.project {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vh;
+  height: 70vw;
+  width: 70vw;
+}
+
+.projectInfo {
+  position: relative;
+  height: 70vw;
+  width: 70vw;
+  background-color: white;
+
+  .projectTitle {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .projectLanguage {
+    color: $secondary;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .projectButton {
+    width: 74%;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 20px;
+    margin-left: 13%;
+    background-color: white;
+    border: 1px solid $secondary;
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+    font-size: larger;
+  }
+
+  .projectButton:hover {
+    background-color: $secondary;
+    color: white;
+  }
+}
