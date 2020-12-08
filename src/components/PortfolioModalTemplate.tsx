@@ -71,7 +71,7 @@ export default props => {
             <hr className="modalTitleSeparator"/>
             <div className="modalDescription">{description}</div>
             <button className="modalViewAppButton">
-                <a href={link}>View App</a>
+                <a href={link}>View Project</a>
             </button>
             <button  className="modalCloseButton" onClick={askToClose}>X</button>
         </Modal>
