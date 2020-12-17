@@ -14,10 +14,14 @@ import cassie_banner from "../img/portfolio/cassie_tutor/ad_banner.png";
 import cassie_front from "../img/portfolio/cassie_tutor/main_page.png";
 import cassie_contact_me from "../img/portfolio/cassie_tutor/contact_me.png";
 import Project from "./Project";
+//// Gmail2PDF
+import gmail2pdf_banner from "../img/portfolio/gmail2pdf/ad_banner.png";
+import gmail2pdf_script from "../img/portfolio/gmail2pdf/gmail2pdf.png";
 
 // Info for modals
 const ACA_EAGLES_DESCRIPTION = 'This is an application (Android/iOS) for a local private school. It gives users direct access to the most recent news, announcements, events, and general information about the school. It also allows for weather push notifications.';
 const CASSIES_DESCRIPTION = 'This is a website I made for my wife when she was looking for tutoring jobs. She was able to get information from several people based on the website.';
+const EMAIL2PDF_DESCRIPTION = 'This project will save a PDF of specific emails tagged with a label and save them to Google Drive. This helps save digital receipts sent via email.';
 
 let Scroll   = require('react-scroll');
 
@@ -67,6 +71,18 @@ class Portfolio extends Component<MyProps, MyState> {
                             <img className='projectModalImage' src={cassie_front} alt='Cassies Tutoring'/>,
                             <img className='projectModalImage' src={cassie_contact_me} alt='Cassies Tutoring'/>
                             ]}
+                    />
+                    <Project
+                        modalKey="EMAIL2PDF_MODAL"
+                        projectTitle="Email to PDF"
+                        projectSubtitle="Automatically saves certain emails as a PDF"
+                        projectDescription={EMAIL2PDF_DESCRIPTION}
+                        projectLanguage="Google AppScript"
+                        projectLink="https://github.com/JacobFrericks/GmailToPdf"
+                        images={[
+                            <img className='projectModalImage' src={gmail2pdf_banner} alt='Gmail2PDF'/>,
+                            <img className='projectModalImage' src={gmail2pdf_script} alt='Gmail2PDF'/>
+                        ]}
                     />
                 </div>
 
