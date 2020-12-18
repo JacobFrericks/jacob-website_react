@@ -17,11 +17,17 @@ import Project from "./Project";
 //// Gmail2PDF
 import gmail2pdf_banner from "../img/portfolio/gmail2pdf/ad_banner.png";
 import gmail2pdf_script from "../img/portfolio/gmail2pdf/gmail2pdf.png";
+/// MidIowaVending
+import midiowavending_quality from "../img/portfolio/midiowavending/quality_vending.png"
+import midiowavending_products from "../img/portfolio/midiowavending/vending_products.png"
+import midiowavending_services from "../img/portfolio/midiowavending/vending_services.png"
+import midiowavending_contactus from "../img/portfolio/midiowavending/contact_us.png"
 
 // Info for modals
 const ACA_EAGLES_DESCRIPTION = 'This is an application (Android/iOS) for a local private school. It gives users direct access to the most recent news, announcements, events, and general information about the school. It also allows for weather push notifications.';
 const CASSIES_DESCRIPTION = 'This is a website I made for my wife when she was looking for tutoring jobs. She was able to get information from several people based on the website.';
 const EMAIL2PDF_DESCRIPTION = 'This project will save a PDF of specific emails tagged with a label and save them to Google Drive. This helps save digital receipts sent via email.';
+const MIDIOWAVENDING_DESCRIPTION = 'This is a WIP website that I am creating for a friend. It will be a website that advertises his new vending machine business.';
 
 let Scroll   = require('react-scroll');
 
@@ -82,6 +88,22 @@ class Portfolio extends Component<MyProps, MyState> {
                         images={[
                             <img className='projectModalImage' src={gmail2pdf_banner} alt='Gmail2PDF'/>,
                             <img className='projectModalImage' src={gmail2pdf_script} alt='Gmail2PDF'/>
+                        ]}
+                    />
+                    <Project
+                        modalKey="MIDIOWAVENDING_MODAL"
+                        projectTitle="Mid Iowa Vending"
+                        projectSubtitle="Experience the highest quality in vending management service!"
+                        projectDescription={MIDIOWAVENDING_DESCRIPTION}
+                        projectLanguage="Flutter"
+                        projectLink=""
+                        images={[
+                            <img className='projectModalImage' src={midiowavending_quality} alt='MidIowaVending'/>,
+                            <img className='projectModalImage' src={midiowavending_quality} alt='MidIowaVending'/>,
+                            <img className='projectModalImage' src={midiowavending_products} alt='MidIowaVending'/>,
+                            <img className='projectModalImage' src={midiowavending_services} alt='MidIowaVending'/>,
+                            <img className='projectModalImage' src={midiowavending_contactus} alt='MidIowaVending'/>,
+
                         ]}
                     />
                 </div>
