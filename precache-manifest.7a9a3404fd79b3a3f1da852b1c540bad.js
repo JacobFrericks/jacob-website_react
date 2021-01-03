@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2fa0e84e0c268408e0bf4d898662441",
+    "revision": "64efa6fd2acdb15157e59beba5fc54a0",
     "url": "/jacob-website_react/index.html"
   },
   {
-    "revision": "1be44e2310924d53b70c",
+    "revision": "bb9386606fe0089dec85",
     "url": "/jacob-website_react/static/css/2.2ee15b90.chunk.css"
   },
   {
-    "revision": "73cc3230534475a9ecf1",
+    "revision": "7eeba02150bb4877dfe5",
     "url": "/jacob-website_react/static/css/main.4047634e.chunk.css"
   },
   {
-    "revision": "1be44e2310924d53b70c",
-    "url": "/jacob-website_react/static/js/2.63d2e400.chunk.js"
+    "revision": "bb9386606fe0089dec85",
+    "url": "/jacob-website_react/static/js/2.dc265236.chunk.js"
   },
   {
     "revision": "e7c69aa4549a0938e155d41214f1973f",
-    "url": "/jacob-website_react/static/js/2.63d2e400.chunk.js.LICENSE.txt"
+    "url": "/jacob-website_react/static/js/2.dc265236.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73cc3230534475a9ecf1",
-    "url": "/jacob-website_react/static/js/main.4e3838f8.chunk.js"
+    "revision": "7eeba02150bb4877dfe5",
+    "url": "/jacob-website_react/static/js/main.00165318.chunk.js"
   },
   {
     "revision": "64d283ffe8ecb229084d",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jacob-website_react/static/media/ad_banner.4ea040d1.png"
   },
   {
-    "revision": "fa5982d4d15435d6b2df01547a383dbc",
-    "url": "/jacob-website_react/static/media/ad_banner.fa5982d4.png"
+    "revision": "dfe0b81b22c323382f7e31ca6b1b51a2",
+    "url": "/jacob-website_react/static/media/ad_banner.dfe0b81b.png"
   },
   {
     "revision": "13e4337dc32e089a83e1e4695cf7efae",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "95ccd3269e1e2bcc6236c61a54ed6ef5",
     "url": "/jacob-website_react/static/media/news_feed.95ccd326.png"
+  },
+  {
+    "revision": "beff9a7b42a4ba63806c2fa60f6d37cb",
+    "url": "/jacob-website_react/static/media/plex_health.beff9a7b.png"
   },
   {
     "revision": "b2d0d1e2a12cb1ea1073bec00b783782",

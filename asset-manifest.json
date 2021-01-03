@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/jacob-website_react/static/css/main.4047634e.chunk.css",
-    "main.js": "/jacob-website_react/static/js/main.4e3838f8.chunk.js",
-    "main.js.map": "/jacob-website_react/static/js/main.4e3838f8.chunk.js.map",
+    "main.js": "/jacob-website_react/static/js/main.00165318.chunk.js",
+    "main.js.map": "/jacob-website_react/static/js/main.00165318.chunk.js.map",
     "runtime-main.js": "/jacob-website_react/static/js/runtime-main.5a05686a.js",
     "runtime-main.js.map": "/jacob-website_react/static/js/runtime-main.5a05686a.js.map",
     "static/css/2.2ee15b90.chunk.css": "/jacob-website_react/static/css/2.2ee15b90.chunk.css",
-    "static/js/2.63d2e400.chunk.js": "/jacob-website_react/static/js/2.63d2e400.chunk.js",
-    "static/js/2.63d2e400.chunk.js.map": "/jacob-website_react/static/js/2.63d2e400.chunk.js.map",
+    "static/js/2.dc265236.chunk.js": "/jacob-website_react/static/js/2.dc265236.chunk.js",
+    "static/js/2.dc265236.chunk.js.map": "/jacob-website_react/static/js/2.dc265236.chunk.js.map",
     "index.html": "/jacob-website_react/index.html",
-    "precache-manifest.4e2045938241223caab2afe5c2a20dd2.js": "/jacob-website_react/precache-manifest.4e2045938241223caab2afe5c2a20dd2.js",
+    "precache-manifest.7a9a3404fd79b3a3f1da852b1c540bad.js": "/jacob-website_react/precache-manifest.7a9a3404fd79b3a3f1da852b1c540bad.js",
     "service-worker.js": "/jacob-website_react/service-worker.js",
     "static/css/2.2ee15b90.chunk.css.map": "/jacob-website_react/static/css/2.2ee15b90.chunk.css.map",
     "static/css/main.4047634e.chunk.css.map": "/jacob-website_react/static/css/main.4047634e.chunk.css.map",
-    "static/js/2.63d2e400.chunk.js.LICENSE.txt": "/jacob-website_react/static/js/2.63d2e400.chunk.js.LICENSE.txt",
+    "static/js/2.dc265236.chunk.js.LICENSE.txt": "/jacob-website_react/static/js/2.dc265236.chunk.js.LICENSE.txt",
     "static/media/about_us.png": "/jacob-website_react/static/media/about_us.e0a62be7.png",
     "static/media/aca_eagles.png": "/jacob-website_react/static/media/aca_eagles.b8dca292.png",
-    "static/media/ad_banner.png": "/jacob-website_react/static/media/ad_banner.fa5982d4.png",
+    "static/media/ad_banner.png": "/jacob-website_react/static/media/ad_banner.dfe0b81b.png",
     "static/media/announcements.png": "/jacob-website_react/static/media/announcements.13e4337d.png",
     "static/media/calendar.png": "/jacob-website_react/static/media/calendar.25a993c4.png",
     "static/media/contact_me.png": "/jacob-website_react/static/media/contact_me.5de6a9b7.png",
@@ -24,6 +24,7 @@
     "static/media/gmail2pdf.png": "/jacob-website_react/static/media/gmail2pdf.ac3968dc.png",
     "static/media/main_page.png": "/jacob-website_react/static/media/main_page.a840e2ef.png",
     "static/media/news_feed.png": "/jacob-website_react/static/media/news_feed.95ccd326.png",
+    "static/media/plex_health.png": "/jacob-website_react/static/media/plex_health.beff9a7b.png",
     "static/media/profile_pic.jpg": "/jacob-website_react/static/media/profile_pic.b2d0d1e2.jpg",
     "static/media/quality_vending.png": "/jacob-website_react/static/media/quality_vending.686282e8.png",
     "static/media/splash_screen.png": "/jacob-website_react/static/media/splash_screen.f59471a9.png",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.5a05686a.js",
     "static/css/2.2ee15b90.chunk.css",
-    "static/js/2.63d2e400.chunk.js",
+    "static/js/2.dc265236.chunk.js",
     "static/css/main.4047634e.chunk.css",
-    "static/js/main.4e3838f8.chunk.js"
+    "static/js/main.00165318.chunk.js"
   ]
 }
