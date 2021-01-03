@@ -22,12 +22,15 @@ import midiowavending_quality from "../img/portfolio/midiowavending/quality_vend
 import midiowavending_products from "../img/portfolio/midiowavending/vending_products.png"
 import midiowavending_services from "../img/portfolio/midiowavending/vending_services.png"
 import midiowavending_contactus from "../img/portfolio/midiowavending/contact_us.png"
+/// Plex Health
+import plexHealth_banner from "../img/portfolio/plex_health/plex_health.png"
 
 // Info for modals
 const ACA_EAGLES_DESCRIPTION = 'This is an application (Android/iOS) for a local private school. It gives users direct access to the most recent news, announcements, events, and general information about the school. It also allows for weather push notifications.';
 const CASSIES_DESCRIPTION = 'This is a website I made for my wife when she was looking for tutoring jobs. She was able to get information from several people based on the website.';
 const EMAIL2PDF_DESCRIPTION = 'This project will save a PDF of specific emails tagged with a label and save them to Google Drive. This helps save digital receipts sent via email.';
 const MIDIOWAVENDING_DESCRIPTION = 'This is a WIP website that I am creating for a friend. It will be a website that advertises his new vending machine business.';
+const PLEXHEALTH_DESCRIPTION = 'This is a python script that is set to run every 5 minutes on my Plex Server. If it does not respond, this script will restart the plex app.';
 
 let Scroll   = require('react-scroll');
 
@@ -79,18 +82,6 @@ class Portfolio extends Component<MyProps, MyState> {
                             ]}
                     />
                     <Project
-                        modalKey="EMAIL2PDF_MODAL"
-                        projectTitle="Email to PDF"
-                        projectSubtitle="Automatically saves certain emails as a PDF"
-                        projectDescription={EMAIL2PDF_DESCRIPTION}
-                        projectLanguage="Google AppScript"
-                        projectLink="https://github.com/JacobFrericks/GmailToPdf"
-                        images={[
-                            <img className='projectModalImage' src={gmail2pdf_banner} alt='Gmail2PDF'/>,
-                            <img className='projectModalImage' src={gmail2pdf_script} alt='Gmail2PDF'/>
-                        ]}
-                    />
-                    <Project
                         modalKey="MIDIOWAVENDING_MODAL"
                         projectTitle="Mid Iowa Vending"
                         projectSubtitle="Experience the highest quality in vending management service!"
@@ -104,6 +95,30 @@ class Portfolio extends Component<MyProps, MyState> {
                             <img className='projectModalImage' src={midiowavending_services} alt='MidIowaVending'/>,
                             <img className='projectModalImage' src={midiowavending_contactus} alt='MidIowaVending'/>,
 
+                        ]}
+                    />
+                    <Project
+                        modalKey="EMAIL2PDF_MODAL"
+                        projectTitle="Email to PDF"
+                        projectSubtitle="Automatically saves certain emails as a PDF"
+                        projectDescription={EMAIL2PDF_DESCRIPTION}
+                        projectLanguage="Google AppScript"
+                        projectLink="https://github.com/JacobFrericks/GmailToPdf"
+                        images={[
+                            <img className='projectModalImage' src={gmail2pdf_banner} alt='Gmail2PDF'/>,
+                            <img className='projectModalImage' src={gmail2pdf_script} alt='Gmail2PDF'/>
+                        ]}
+                    />
+                    <Project
+                        modalKey="PLEXHEALTH_MODAL"
+                        projectTitle="Plex Health Check"
+                        projectSubtitle="Verifies if the Plex Media Server is responding"
+                        projectDescription={PLEXHEALTH_DESCRIPTION}
+                        projectLanguage="Python"
+                        projectLink="https://github.com/JacobFrericks/plex-healthcheck"
+                        images={[
+                            <img className='projectModalImage' src={plexHealth_banner} alt='PlexHealth'/>,
+                            <img className='projectModalImage' src={plexHealth_banner} alt='PlexHealth'/>
                         ]}
                     />
                 </div>
