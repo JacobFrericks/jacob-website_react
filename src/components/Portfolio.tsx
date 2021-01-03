@@ -30,7 +30,7 @@ const ACA_EAGLES_DESCRIPTION = 'This is an application (Android/iOS) for a local
 const CASSIES_DESCRIPTION = 'This is a website I made for my wife when she was looking for tutoring jobs. She was able to get information from several people based on the website.';
 const EMAIL2PDF_DESCRIPTION = 'This project will save a PDF of specific emails tagged with a label and save them to Google Drive. This helps save digital receipts sent via email.';
 const MIDIOWAVENDING_DESCRIPTION = 'This is a WIP website that I am creating for a friend. It will be a website that advertises his new vending machine business.';
-const PLEXHEALTH_DESCRIPTION = 'This is a WIP website that I am creating for a friend. It will be a website that advertises his new vending machine business.';
+const PLEXHEALTH_DESCRIPTION = 'This is a python script that is set to run every 5 minutes on my Plex Server. If it does not respond, this script will restart the plex app.';
 
 let Scroll   = require('react-scroll');
 
