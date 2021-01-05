@@ -12,3 +12,25 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.filterButton {
+  width: 19%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  bottom: 20px;
+  background-color: white;
+  border: none;
+  font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+  font-size: small;
+}
+
+.filterButton:focus {
+  outline:0;
+}
+
+.selectedFilterButton {
+  @extend .filterButton;
+  background-color: $secondary;
+  color: white
+}
